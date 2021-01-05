@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    margin: 20px auto;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+    height: 90px;
+}
+
+.numerosSorteados {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.numerosSorteados p {
+    background-color: #fff;
+    color: #8844ee;
+    padding: 10px;
+    font-family: "nunito", sans-serif;
+    font-size: 36px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+#sortear {
+    font-size: 26px;
+    display: block;
+    margin: 30px auto;
+    background-color: #8844ee;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#recarregar {
+    font-size: 20px;
+    display: block;
+    margin: 30px auto;
+    background-color: #006AFA;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.warning {
+    display: block;
+    text-align: center;
+    color: red;
+}
+
+.social {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social h4 {
+    margin: 30px auto;
+    font-family: 'nunito', sans-serif;
+    font-size: 22px;
+}
+
+.social a {
+    background-color: #8844ee;
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'nunito', sans-serif;
+}
